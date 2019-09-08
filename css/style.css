@@ -311,7 +311,7 @@ h1{
 
 #robot_controller {
  position: absolute;
- top: 445px;
+ top: 475px;
  left: 130px;
  width: 250px;
  height: 200px;
@@ -327,7 +327,7 @@ h1{
 }
 #rogo {
  position: absolute;
- top: 655px;
+ top: 625px;
  left: 110px;
  width: 218px;
  height: 93px;
@@ -400,14 +400,14 @@ h1{
 .flat.border {
   position: relative;
   text-align: center;
-  height: 55px;
+  height: 120px;
   margin: 10px;
   /* 中央揃え */
   display: block;
   margin: 0 auto;
   /* 幅の指定 */
   width: 100%;
-  max-width: 70px;
+  max-width: 200px;
   box-sizing: border-box;
   padding: 10px;
   /* 色の指定 */
@@ -458,4 +458,45 @@ background:#3498db;
 // flexboxの設定
 display: flex;
 flex-direction: column;
+}
+
+.main-nav a {
+  margin: 10px;
+  border-radius: 5px;
+  background: #60B99A;
+  color: #fff;
+  display: block;
+  padding: 15px;
+  text-decoration: none;
+  text-align: center;
+  height: 300px;
+  width: 200px;
+  display:flex;
+-webkit-align-items: center;
+-webkit-justify-content: center;
+align-items: center; /*上下中央*/
+justify-content: center; /*左右中央*/
+  /* position: absolute; */
+  /* top: 50%; */
+}
+
+.list {
+  display: flex;
+  justify-content: space-between;
+  justify-content: center;
+}
+
+.main-nav .logo {
+  color: black;
+  height: 80px;
+  width: 500px;
+  margin: auto;
+  margin-bottom: 30px;
+  font-weight: bold;
+  background: lightgray;
+}
+ul {
+  list-style: none;
+  /* display: flex;*/
+  justify-content: space-evenly;
 }
